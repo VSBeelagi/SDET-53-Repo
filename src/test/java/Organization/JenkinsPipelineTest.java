@@ -7,6 +7,10 @@ public class JenkinsPipelineTest {
 	@Test
 	public void jenkinsPipelineTest()
 	{
-		System.out.println("---pipeline---");
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("Env");
+		
+		System.out.println(BROWSER);
+		System.out.println(ENV);
 	}
 }
